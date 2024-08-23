@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Running Tracker</string>
+
+    <!-- Bottom nav menu -->
+    <string name="your_runs">Your runs</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+
+    <!-- Run fragment -->
+    <string name="sort_by">Sort by</string>
+    <string name="permission_reminder">You need to grant these permissions to use this app</string>
+
+    <!-- Set Up fragment -->
+    <string name="welcome_text">Welcome!\nPlease enter your name and weight</string>
+    <string name="your_name">Your name</string>
+    <string name="your_weight">Your weight</string>
+    <string name="kg">kg</string>
+    <string name="continue_text">Continue</string>
+    <string name="error_field">Please fill this field</string>
+    <string name="lets_go">Let\'s go</string>
+
+    <!-- Settings fragment -->
+    <string name="apply_changes">Apply changes</string>
+    <string name="successfully_saved">Saved successfully</string>
+    <string name="km">km</string>
+    <string name="km_hour">km/hour</string>
+    <string name="kcal">kcal</string>
+    <string name="average_speed_over_time">Average speed over time</string>
+    <string name="countdown_simple">00:00:00</string>
+
+    <!-- Statistics fragment -->
+    <string name="total_distance">Total distance</string>
+    <string name="zero_km">0 km</string>
+    <string name="total_time">Total time</string>
+    <string name="countdown_extended">00:00:00:00</string>
+    <string name="total_calories_burned">Total calories burned</string>
+    <string name="zero_kcal">0 kcal</string>
+    <string name="average_speed">Average speed</string>
+    <string name="zero_km_hour">0 km/h</string>
+
+    <!-- Tracking fragment -->
+    <string name="start">Start</string>
+    <string name="finish_run">Finish run</string>
+    <string name="stop">Stop</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_run">Cancel the run?</string>
+    <string name="wanna_cancel_run">Are you sure to cancel the current run and delete its data?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="run_saved">Run saved successfully</string>
+
+    <!-- Tracking service -->
+    <string name="resume">Resume</string>
+    <string name="pause">Pause</string>
+
+    <!-- GPS Dialog -->
+    <string name="gps_title">Enable GPS</string>
+    <string name="gps_message">To track your run please enable GPS</string>
+    <string name="enable">Enable</string>
+</resources>

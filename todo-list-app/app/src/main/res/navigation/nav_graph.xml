@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/taskListFragment">
+
+    <fragment
+        android:id="@+id/taskListFragment"
+        android:name="xyz.teamgravity.todolist.fragment.fragment.TaskListFragment"
+        android:label="@string/tasks"
+        tools:layout="@layout/fragment_task_list">
+        <action
+            android:id="@+id/action_taskListFragment_to_addEditFragment"
+            app:destination="@id/addEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEditFragment"
+        android:name="xyz.teamgravity.todolist.fragment.fragment.AddEditFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_add_edit">
+        <argument
+            android:name="task"
+            android:defaultValue="@null"
+            app:argType="xyz.teamgravity.todolist.model.TaskModel"
+            app:nullable="true" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+    </fragment>
+    <dialog
+        android:id="@+id/deleteDialog"
+        android:name="xyz.teamgravity.todolist.fragment.dialog.DeleteDialog"
+        android:label="DeleteDialog" /><action android:id="@+id/action_global_deleteDialog" app:destination="@id/deleteDialog"/>
+</navigation>
